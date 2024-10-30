@@ -1,0 +1,22 @@
+
+        // Create an instance of Window
+        WindowFrame exampleWindow = new WindowFrame("My Custom Window");
+
+        WindowLayout exampleLayout = new WindowLayout(myWindow);
+
+        // Create an instance of your custom Button
+        WindowButton exampleButton = new WindowButton("Click Me!");
+
+        // Add a click listener to the button
+        myButton.addClickListener(e -> {
+            System.out.println("Button clicked!");
+            myButton.setLabel("Clicked!"); // Change the label on click
+        });
+
+        // Add the button to the window
+        exampleWindow.addComponent(myButton, BorderLayout.CENTER); // Add button to center
+
+        // Display the window
+        exampleWindow.display();
+
+        exampleLayout.setMaximized();
