@@ -8,7 +8,7 @@ Hope this language works as a dream I always wanted but there's obviously going 
 
 Programing Language Name: Mythic+
 
-Current Version: 0
+Current Version: 1 - Not Released to the public Yet. Still needs development
 
 -------------------------
 
